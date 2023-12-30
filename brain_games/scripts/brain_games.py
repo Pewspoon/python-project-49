@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 from brain_games.cli import welcome_user
+from brain_even import question_for_user
 
 
 def welcome():
@@ -15,6 +16,7 @@ main func
     """
     welcome()
     welcome_user()
+    question_for_user()
 
 
 if __name__ == '__main__':
