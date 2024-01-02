@@ -22,7 +22,7 @@ def question_for_user():
                 answer = numbers - numbers
             case '*':
                 answer = numbers * numbers
-        
+
         if str(user_answer) == str(answer):
             print('Correct!')
             result += 1
