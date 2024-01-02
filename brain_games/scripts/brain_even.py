@@ -3,6 +3,9 @@ import prompt
 
 
 def question_for_user():
+    """
+func check number for even
+    """
     result = 0
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
@@ -16,8 +19,12 @@ def question_for_user():
         if user_answer == answer:
             print('Correct!')
             result += 1
-        else:
+        elif user_answer == 'yes' and answer == 'no':
             print('\'yes\' is wrong answer ;(. Correct answer was \'no\'.')
+            print(f"Let\'s try again, {name}!")
+            result = 0
+        else:
+            print('\'no\' is wrong answer ;(. Correct answer was \'yes\'.')
             print(f"Let\'s try again, {name}!")
             result = 0
     print(f"Congratulations, {name}!")
