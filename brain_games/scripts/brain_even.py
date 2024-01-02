@@ -1,4 +1,5 @@
 from random import randint
+from brain_games.cli import name
 import prompt
 
 
@@ -17,9 +18,9 @@ def question_for_user():
             result += 1
         else:
             print('\'yes\' is wrong answer ;(. Correct answer was \'no\'.')
-            print(f"Let\'s try again, !")
+            print(f"Let\'s try again, {name}!")
             result = 0
-    print(f"Congratulations, !")
+    print(f"Congratulations, {name}!")
 
 
 def main():
