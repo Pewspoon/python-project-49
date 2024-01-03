@@ -1,9 +1,14 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "This project contains 5 games. The games are playing on your console. The games are related to basic mathematics."
 authors = ["Stepan Kozlov <pewspoon.info@gmail.com>"]
 readme = "README.md"
+repository = "https://github.com/Pewspoon/python-project-49/blob/main/poetry.lock"
+classifiers = [
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
 packages = [
   { include = "brain_games" },
 ]
