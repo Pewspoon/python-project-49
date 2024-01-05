@@ -22,7 +22,8 @@ def question_for_user():
         random_hidden = random.randint(0, len(progression) - 1)
         old_value = progression[random_hidden]
         progression[random_hidden] = missing_number
-        print(f"Question: {progression}")
+        output = ' '.join(map(str, progression))
+        print(f"Question: {output}")
         user_answer = prompt.string("Your answer:")
         if int(user_answer) == old_value:
             print("Correct!")
