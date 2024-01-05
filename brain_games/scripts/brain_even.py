@@ -1,5 +1,6 @@
 from random import randint
 import prompt
+from brain_games.scripts import brain_games
 
 
 def question_for_user():
@@ -16,19 +17,21 @@ func check number for even
         answer = 'yes' if numbers % 2 == 0 else 'no'
         print(f"Question: {numbers}")
         user_answer = prompt.string('Your answer:')
-        if user_answer == answer:
+        if user_answer == answer :
             print('Correct!')
             result += 1
+        #elif result == 3:
+            #
         elif user_answer == 'yes' and answer == 'no':
             print('\'yes\' is wrong answer ;(. Correct answer was \'no\'.')
             print(f"Let\'s try again, {name}!")
-            result = 0
+            break
         else:
             print('\'no\' is wrong answer ;(. Correct answer was \'yes\'.')
             print(f"Let\'s try again, {name}!")
-            result = 0
-    print(f"Congratulations, {name}!")
-
+            break
+    if result == 3:
+        print(f"Congratulations, {name}!")
 
 def main():
     question_for_user()

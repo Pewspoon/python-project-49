@@ -25,7 +25,8 @@ def question_for_user():
             print('\'no\' is wrong answer ;(. Correct answer was \'yes\'.')
             print(f"Let\'s try again, {name}!")
             result = 0
-    print(f"Congratulations, {name}!")
+    if result == 3:
+        print(f"Congratulations, {name}!")
 
 
 def check_numbers_for_simple(number):

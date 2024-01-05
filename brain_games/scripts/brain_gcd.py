@@ -31,7 +31,8 @@ def question_for_user():
             print(f"{answer_user} is wrong answer ;(. Correct answer was {answer}.")
             print(f"Let's try again, {name}")
             result = 0
-    print(f"Congratulations, {name}!")
+    if result == 3:
+        print(f"Congratulations, {name}!")
 
 
 def main():
