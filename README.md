@@ -1,4 +1,5 @@
 ### Hexlet tests and linter status:
+Several technologies were used to create the project: python3 + library prompt, poetry and to test the style of writing flake8 code
 https://asciinema.org/a/wwF6Sb9WcU2kOK5y4O9ZoEHnp - brain-even
 https://asciinema.org/a/EwQ1IfR8ZEpehMKK8CQ2g3tli - brain-calc
 https://asciinema.org/a/1OagKOQiOVYoqHuYVNM3QG3QW - brain-gcd
