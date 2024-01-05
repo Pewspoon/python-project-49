@@ -29,7 +29,7 @@ def question_for_user():
             result += 1
         else:
             print(f"{answer_user} is wrong answer ;(. Correct answer was {answer}.")
-            print(f"Let's try again, {name}")
+            print(f"Let's try again, {name}!")
             break
     if result == 3:
         print(f"Congratulations, {name}!")
