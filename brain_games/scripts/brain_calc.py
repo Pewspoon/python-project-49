@@ -13,7 +13,7 @@ def question_for_user():
         numbers = randint(0, 100)
         mathematicalSigns = ('+', '-', '*')
         random_value = random.choice(mathematicalSigns)
-        print(f"Question: {str(numbers) + random_value + str(numbers)}")
+        print(f"Question: {str(numbers)} {random_value} {str(numbers)}")
         user_answer = prompt.string('Your answer:')
         match random_value:
             case '+':
@@ -22,6 +22,7 @@ def question_for_user():
                 answer = numbers - numbers
             case '*':
                 answer = numbers * numbers
+        
 
         if str(user_answer) == str(answer):
             print('Correct!')
