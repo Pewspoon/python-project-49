@@ -29,7 +29,8 @@ def question_for_user():
             print("Correct!")
             result += 1
         else:
-            print(f"{user_answer} is wrong answer ;(. Correct answer was {old_value}.")
+            print(f"""{user_answer} is wrong answer ;(.
+            Correct answer was {old_value}.""")
             print(f'Let\'s try again, {name}!')
             break
     if result == 3:

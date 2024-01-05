@@ -1,7 +1,5 @@
-import random
 from random import randint
 import prompt
-
 
 
 def question_for_user():
@@ -36,7 +34,6 @@ def check_numbers_for_simple(number):
         if number % i == 0:
             return 'no'
     return 'yes'
-    
 
 
 def main():

@@ -22,13 +22,13 @@ def question_for_user():
                 answer = numbers - numbers
             case '*':
                 answer = numbers * numbers
-        
 
         if str(user_answer) == str(answer):
             print('Correct!')
             result += 1
         else:
-            print(f"{user_answer} is wrong answer ;(. Correct answer was {answer}.")
+            print(f"""{user_answer} is wrong answer ;(.
+            Correct answer was {answer}.""")
             print(f"Let\'s try again, {name}!")
             break
     if result == 3:
