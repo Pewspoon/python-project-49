@@ -20,11 +20,11 @@ def question_for_user():
         elif user_answer == 'yes' and check_numbers_for_simple(number) == 'no':
             print('\'yes\' is wrong answer ;(. Correct answer was \'no\'.')
             print(f"Let\'s try again, {name}!")
-            result = 0
+            break
         else:
             print('\'no\' is wrong answer ;(. Correct answer was \'yes\'.')
             print(f"Let\'s try again, {name}!")
-            result = 0
+            break
     if result == 3:
         print(f"Congratulations, {name}!")
 
