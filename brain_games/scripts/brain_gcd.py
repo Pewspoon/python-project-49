@@ -19,8 +19,8 @@ def question_for_user():
 
     result = 0
     while (result != 3):
-        m = randint(0, 100)
-        n = randint(0, 100)
+        m = randint(1, 101)
+        n = randint(1, 101)
         print(f"Question: {m} {n}")
         answer_user = int(prompt.string('Your answer:'))
         answer = check_gcd(m, n)
