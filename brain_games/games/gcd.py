@@ -22,4 +22,4 @@ def get_num_and_gcdres():
 
 
 def run_gcd_game():
-    run_game(get_num_and_gcdres, MESSAGE)
+    run_game(get_num_and_gcdres)

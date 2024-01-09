@@ -23,4 +23,4 @@ def get_num_and_primeres():
 
 
 def run_prime_game():
-    run_game(get_num_and_primeres, BRAIN_PRIME)
+    run_game(get_num_and_primeres)
