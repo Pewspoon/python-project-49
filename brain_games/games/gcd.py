@@ -1,5 +1,5 @@
 from random import randint
-from brain_games.consts import GCD_INSTRUCTION
+from brain_games.consts import BRAIN_GCD
 from brain_games.engine import run_game
 
 
@@ -21,4 +21,4 @@ def get_num_and_gcdres():
 
 
 def run_gcd_game():
-    run_game(get_num_and_gcdres(), GCD_INSTRUCTION)
+    run_game(get_num_and_gcdres(), BRAIN_GCD)

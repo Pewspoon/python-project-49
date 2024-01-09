@@ -1,5 +1,5 @@
 from random import randint
-from brain_games.consts import EVEN_INSTRUCTION
+from brain_games.consts import BRAIN_EVEN
 from brain_games.engine import run_game
 
 
@@ -11,4 +11,4 @@ def get_num_and_evenres():
 
 
 def run_enev_game():
-    run_game(get_num_and_evenres(), EVEN_INSTRUCTION)
+    run_game(get_num_and_evenres(), BRAIN_EVEN)
