@@ -2,7 +2,7 @@ import prompt
 from brain_games.cli import welcome_user
 
 
-def run_game(game, message):
+def run_game(game):
     """
     engine of games
     :param consts:
@@ -11,7 +11,7 @@ def run_game(game, message):
     """
     name = welcome_user()
     print("Welcome to the Brain Games!")
-    print(message)
+    print(game.MESSAGE)
     count = 0
     while count != 3:
         question, correct_answer = game.get_answer_and_question()
