@@ -1,7 +1,9 @@
 import random
 from random import randint
-from brain_games.consts import BRAIN_PROGRESSION
 from brain_games.engine import run_game
+
+
+MESSAGE = 'What number is missing in the progression?'
 
 
 def get_num_and_progressionres():
@@ -24,4 +26,4 @@ def get_num_and_progressionres():
 
 
 def run_progression_game():
-    run_game(get_num_and_progressionres, BRAIN_PROGRESSION)
+    run_game(get_num_and_progressionres, MESSAGE)

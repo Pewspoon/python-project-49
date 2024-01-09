@@ -1,17 +1,17 @@
 import prompt
-from brain_games import consts
 from brain_games.cli import welcome_user
 
 
-def run_game(game):
+def run_game(game, message):
     """
     engine of games
+    :param consts:
     :param get_answer_and_question:
     :param instruction:
     """
     name = welcome_user()
     print("Welcome to the Brain Games!")
-    print(consts.game)
+    print(message)
     count = 0
     while count != 3:
         question, correct_answer = game.get_answer_and_question()
@@ -24,6 +24,7 @@ def run_game(game):
             print(f"""{user_answer} is wrong answer ;(.
                         Correct answer was {correct_answer}.""")
             print(f"Let\'s try again, {name}!")
-            break
+
+            return
     if count == 3:
         print(f'Congratulations, {name}!')

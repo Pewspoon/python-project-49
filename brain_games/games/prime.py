@@ -1,6 +1,8 @@
 from random import randint
-from brain_games.consts import BRAIN_PRIME
 from brain_games.engine import run_game
+
+
+MESSAGE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def check_numbers_for_simple(number):

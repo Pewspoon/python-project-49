@@ -1,7 +1,9 @@
 import random
 from random import randint
-from brain_games.consts import BRAIN_CALC
 from brain_games.engine import run_game
+
+
+MESSAGE = 'What is the result of the expression?'
 
 
 def get_num_and_calcres():

@@ -1,6 +1,7 @@
 from random import randint
-from brain_games.consts import BRAIN_GCD
 from brain_games.engine import run_game
+
+MESSAGE = 'Find the greatest common divisor of given numbers.'
 
 
 def check_gcd(m, n):
@@ -21,4 +22,4 @@ def get_num_and_gcdres():
 
 
 def run_gcd_game():
-    run_game(get_num_and_gcdres, BRAIN_GCD)
+    run_game(get_num_and_gcdres, MESSAGE)
