@@ -17,8 +17,8 @@ def get_num_and_primeres():
     question = f"Question: {number}"
     correct_answer = 'yes' if check_numbers_for_simple(number) else 'no'
     print(question)
-    return number, correct_answer
+    return question, correct_answer
 
 
 def run_prime_game():
-    run_game(get_num_and_primeres(), BRAIN_PRIME)
+    run_game(get_num_and_primeres, BRAIN_PRIME)

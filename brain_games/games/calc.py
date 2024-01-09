@@ -20,4 +20,4 @@ def get_num_and_calcres():
 
 
 def run_calc_game():
-    run_game(get_num_and_calcres(), BRAIN_CALC)
+    run_game(get_num_and_calcres, BRAIN_CALC)

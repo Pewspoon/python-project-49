@@ -24,4 +24,4 @@ def get_num_and_progressionres():
 
 
 def run_progression_game():
-    run_game(get_num_and_progressionres(), BRAIN_PROGRESSION)
+    run_game(get_num_and_progressionres, BRAIN_PROGRESSION)

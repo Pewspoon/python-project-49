@@ -21,4 +21,4 @@ def get_num_and_gcdres():
 
 
 def run_gcd_game():
-    run_game(get_num_and_gcdres(), BRAIN_GCD)
+    run_game(get_num_and_gcdres, BRAIN_GCD)
