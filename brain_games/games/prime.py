@@ -1,3 +1,4 @@
+import math
 from random import randint
 from brain_games.engine import run_game
 
@@ -6,12 +7,12 @@ CONDITION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def check_numbers_for_simple(number):
-    if number == 1:
-        return False
-    for i in range(2, number):
+    is_prime = True
+    for i in range(2, int(math.sqrt(number)) + 1):
         if number % i == 0:
-            return True
-    return True
+            is_prime = False
+            break
+    return is_prime
 
 
 def game_conditions():
