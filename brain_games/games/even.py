@@ -1,5 +1,4 @@
 from random import randint
-from brain_games.engine import run_game
 
 
 CONDITION = 'Answer "yes" if the number is even, otherwise answer "no".'

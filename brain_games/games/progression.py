@@ -1,6 +1,5 @@
 import random
 from random import randint
-from brain_games.engine import run_game
 
 
 CONDITION = 'What number is missing in the progression?'

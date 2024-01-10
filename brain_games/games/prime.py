@@ -1,6 +1,5 @@
 import math
 from random import randint
-from brain_games.engine import run_game
 
 
 CONDITION = 'Answer "yes" if given number is prime. Otherwise answer "no".'

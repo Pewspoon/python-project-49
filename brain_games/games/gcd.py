@@ -1,5 +1,4 @@
 from random import randint
-from brain_games.engine import run_game
 
 
 CONDITION = 'Find the greatest common divisor of given numbers.'
