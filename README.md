@@ -1,9 +1,51 @@
 ### Hexlet tests and linter status:
-Several technologies were used to create the project: python3 + library prompt, poetry and to test the style of writing flake8 code
-https://asciinema.org/a/wwF6Sb9WcU2kOK5y4O9ZoEHnp - brain-even
-https://asciinema.org/a/EwQ1IfR8ZEpehMKK8CQ2g3tli - brain-calc
-https://asciinema.org/a/1OagKOQiOVYoqHuYVNM3QG3QW - brain-gcd
-https://asciinema.org/a/NeZrctYQmexHQJyoTQxkBt1sq - brain-progression
-https://asciinema.org/a/eweGPupW8z3R5ZLUy6o8pdcKp - brain-prime 
 [![Actions Status](https://github.com/Pewspoon/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Pewspoon/python-project-49/actions)
+### Maintainability Badge:
 [![Maintainability](https://api.codeclimate.com/v1/badges/42c86a4969edd0e7b9c9/maintainability)](https://codeclimate.com/github/Pewspoon/python-project-49/maintainability)
+
+### Project Brain Games
+
+Пять математических мини-игр:
+
+ - Калькулятор *(brain-calc)*
+ - Проверка на чётность *(brain-even)*
+ - Игра «Арифметическая прогрессия» *(brain-progression)*
+ - Игра «НОД» *(brain-gcd)*
+ - Игра «Простое ли число?» *(brain-prime)*
+
+> Примеры работы мини-игр находятся в конце readme.
+
+### Необходимые требования
+
+Python 3.10,
+Poetry
+
+### Установка
+
+    git clone git@github.com:Svarojichh/python-project-49.git
+
+>>
+
+    cd python-project-49/
+    poetry install (make install)
+    poetry build (make build)
+    python3 -m pip install --user dist/*.whl (make package-install)
+
+### Команды для вызова игр
+
+    brain-calc - Калькулятор
+    brain-even - Проверка на чётность
+    brain-progression - Игра «Арифметическая прогрессия»
+    brain-gcd - Игра «НОД»
+    brain-prime - Игра «Простое ли число?»
+
+### test game brain-even:
+[![asciicast](https://asciinema.org/a/b91O766RpbQxD2cN9X1fn4QZL.svg)](https://asciinema.org/a/b91O766RpbQxD2cN9X1fn4QZL)
+### test game brain-calc:
+[![asciicast](https://asciinema.org/a/wD8sDLQWp8JWzs7T4BVD3P6f6.svg)](https://asciinema.org/a/wD8sDLQWp8JWzs7T4BVD3P6f6)
+### test game brain-gcd:
+[![asciicast](https://asciinema.org/a/gdpfHuzlCGYBbVOv4PQ5GZn7l.svg)](https://asciinema.org/a/gdpfHuzlCGYBbVOv4PQ5GZn7l)
+### test game brain-progression:
+[![asciicast](https://asciinema.org/a/M9o5xquSuUj7bP1YcZJB1QL8x.svg)](https://asciinema.org/a/M9o5xquSuUj7bP1YcZJB1QL8x)
+### test game brain-prime:
+[![asciicast](https://asciinema.org/a/8dOXaeQSi6KjgydcHusyhqM4s.svg)](https://asciinema.org/a/8dOXaeQSi6KjgydcHusyhqM4s)
